@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QHBoxLayout, QVB
 from random import shuffle
 app = QApplication([])
 window = QWidget()
-
+print('hello')
 class Question ():
     def __init__(self,question, right_ans, wrong1, wrong2, wrong3):
         self.question = question
